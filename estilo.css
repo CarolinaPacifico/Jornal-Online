@@ -1,0 +1,117 @@
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+html{
+    font-family:'Scheherazade New', serif;
+}
+
+header{
+    padding-top: 10px;
+    height: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #b3b3b3;
+    text-align: center;
+}
+
+.Titulos{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.ImgGrande{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+.ImgGrande h2{
+    margin-top: 10px;
+}
+.ImgGrande img{
+    width: 500px;
+    height: 300px;
+    text-align: start;
+    margin-right: 30px;
+}
+
+h2{
+    text-align: start;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ImgLateral{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.ImgLateral img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 75px;
+}
+
+.textoPonta{
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    margin-bottom: 75px;
+}
+.ImgInferior{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+.div{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.div img{
+    height: 100px;
+    width: 150px;
+}
+
+.div h2{
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: row;
+}

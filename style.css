@@ -1,0 +1,74 @@
+html{
+    font-family:'Scheherazade New', serif;
+}
+
+header{
+    padding-top: 10px;
+    height: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:  #b3b3b3;
+    text-align: center;
+}
+
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.ImgArtigo{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+.ImgArtigo img {
+    text-align: center;
+    width: 800px;
+    height:300px;
+}
+h2{
+    text-align: start;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h3{
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+.subtitulo{
+    color:grey;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.parte2{
+    display:flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}
+.parte2 p{
+    text-align: start;
+    width: 500px;
+}
+.parte2 img{
+    width: 350px;
+    height: 150px;
+}
